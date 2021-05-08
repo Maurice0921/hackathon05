@@ -31,7 +31,7 @@ a{
     font-size: 16px;
 }
 h1{
-    font-size: 36px;
+    font-size: 3em;
 }
 p{
     font-size: 16px;
@@ -121,36 +121,33 @@ p{
 /*Section 2*/
 
 .section2{
-    display:grid;
-    grid-template-columns: 50% 50%;
-    gap:100px;
     width: 100%;
-    height: 500px;
+    height: 400px;
+    display:grid;
+    grid-template-columns: 40% 60%;
+    grid-template-columns: 500px;
+    gap:150px;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #991377;
+    
 }
 .section2>article{
-    /*width: 50%;
-    height: 400px;
-    margin:0 auto;*/
-    display: flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    align-items: center;
-    margin: 30px ;
-}
-.article-izq{
+
+    margin:30px auto;
     display: flex;
     justify-content:flex-start;
     flex-wrap:wrap;
     align-items: center;
-    margin: 30px ;
-    background-color: #01ac9a;
+    
+}
+.article-izq{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    
     
 }
 .article-der{
-   display: flex;
-   justify-content: flex-start;
+  
 }
