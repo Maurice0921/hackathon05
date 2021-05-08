@@ -134,7 +134,7 @@ p{
 }
 .section2>article{
 
-    margin:30px auto;
+    margin:30px 30px;
     display: flex;
     justify-content:flex-start;
     flex-wrap:wrap;
@@ -149,5 +149,16 @@ p{
     
 }
 .article-der{
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conten-boton{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+
+.conten-boton>a{
+    color: whitesmoke;
 }
